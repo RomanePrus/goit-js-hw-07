@@ -40,8 +40,6 @@ function onGalleryClick(evt) {
       onShow: () => {
         window.addEventListener("keydown", closeWithEsc);
       },
-    },
-    {
       onClose: () => {
         window.removeEventListener("keydown", closeWithEsc);
       },
